@@ -5,3 +5,10 @@ for(var i=0;i<5;i++ ){
     sum=sum+num[i];
 }
 document.write("total sum of all number : "+sum);
+
+
+var number=new Array();
+
+for(var i=0; i<5; i++){
+    number[i]=parseInt(prompt("enter a number : "));
+}
