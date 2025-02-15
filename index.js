@@ -12,3 +12,9 @@ var number=new Array();
 for(var i=0; i<5; i++){
     number[i]=parseInt(prompt("enter a number : "));
 }
+
+var total=0;
+for(var i=0; i<5; i++){
+    total =total+number[i];
+}
+document.write("Total is : "+total);
